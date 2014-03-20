@@ -75,10 +75,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="0.38181818" vertical-offset="0" max-vertical-offset="1100">
               <folding />
             </state>
           </provider>
@@ -130,6 +139,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/algorithms/spoj/Feynman.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/algorithms/spoj/ToAndFro.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/.gitattributes" />
       </list>
     </option>
   </component>
@@ -609,13 +619,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/codility/Dominator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="131" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/algorithms/codility/Stocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="102" selection-end="889" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1360">
@@ -910,6 +913,13 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="482" selection-end="482" vertical-scroll-proportion="0.38181818" vertical-offset="0" max-vertical-offset="1100">
           <folding />
         </state>
       </provider>
