@@ -1,6 +1,5 @@
 package com.algorithms.spoj;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -26,22 +25,18 @@ public class ToAndFro
     {
         if(message.length() % key != 0)
         {
-            System.out.println("Bad key val " + message.length() % key);
         }
         char [] messageArray = message.toCharArray();
-        for(int i = key; i < messageArray.length; i = i*key)
+        for(int i = key; i < messageArray.length; i = i + 2*key)
         {
             for(int j = i; j < i + key/2; j++)
             {
-                System.out.println("  " + (j));
 
-                System.out.println("  " + (i + key - 1 - j + i));
                 char tmp = messageArray[j];
-                messageArray[j] = messageArray[i + key - 1 - j];
-                messageArray[i + key - 1 - j] = tmp;
+                messageArray[j] = messageArray[i + key - 1 - j + i];
+                messageArray[i + key - 1 - j + i] = tmp;
             }
         }
-        System.out.println(" " + Arrays.toString(messageArray));
         StringBuilder sb = new StringBuilder();
         for(int j = 0; j<key; j++)
         {
